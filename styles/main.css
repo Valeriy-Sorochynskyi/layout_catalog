@@ -176,25 +176,11 @@ body {
   background-color: #fff; }
 
 .main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 50px;
-  padding-bottom: 78px; }
-  .main__row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-  .main__row:last-of-type {
-    margin-top: 50px; }
-  .main__card:not(:last-of-type) {
-    margin-right: 48px; }
+  width: 944px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-column-gap: 48px;
+  grid-row-gap: 50px;
+  margin: 50px auto 78px; }
 
 /*# sourceMappingURL=main.css.map */
